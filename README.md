@@ -20,7 +20,7 @@ The system processes CAD geometry and engineering parameters to generate, modify
 - CAD template matching
 - Rule-based drawing operations
 
-## Technologies
+## Technologies Used
 
 - Python
 - DXF
@@ -44,4 +44,42 @@ Input Parameters / Drawing
             ↓
        Validation
             ↓
-      Preview Rendering
+     Preview Rendering
+```
+
+## Project Structure
+
+```text
+CAD-Drawing-Automation/
+│
+├── app.py
+├── cad_engine.py
+├── cad_modifier.py
+├── dxf_geometry.py
+├── dxf_preview_renderer.py
+├── matcher.py
+├── parser.py
+│
+├── README.md
+└── .gitignore
+```
+
+## Objective
+
+The objective of this project is to automate repetitive CAD operations through programmatic geometry processing and engineering logic, helping reduce manual drafting effort and improve consistency in generated drawings.
+
+## Future Improvements
+
+- Natural-language CAD parameter input
+- AI-assisted drawing generation
+- Intelligent CAD template matching
+- Automated similarity-based drawing retrieval
+- Generative AI integration
+- Advanced drawing validation
+
+## Author
+
+**Joel Vashisth**
+
+Computer Science & Engineering  
+Artificial Intelligence & Machine Learning
