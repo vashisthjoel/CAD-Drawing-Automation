@@ -1,8 +1,47 @@
-# pytest cache directory #
+# CAD Drawing Automation
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+A Python-based CAD automation system designed to automate the generation and modification of engineering drawings in DXF format using geometry processing, predefined engineering rules, and automated drawing operations.
 
-**Do not** commit this to version control.
+## Overview
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+This project focuses on reducing repetitive manual CAD drafting work by automating common drawing operations programmatically.
+
+The system processes CAD geometry and engineering parameters to generate, modify, validate, and preview DXF drawings.
+
+## Key Features
+
+- Automated CAD drawing generation
+- DXF geometry processing
+- Parametric drawing modification
+- Component alignment
+- Automated dimension regeneration
+- DXF validation
+- Drawing preview generation
+- CAD template matching
+- Rule-based drawing operations
+
+## Technologies
+
+- Python
+- DXF
+- AutoCAD
+- Computational Geometry
+- Parametric CAD
+- Engineering Automation
+
+## System Workflow
+
+```text
+Input Parameters / Drawing
+            ↓
+      Geometry Parsing
+            ↓
+    Engineering Rules
+            ↓
+     CAD Modification
+            ↓
+      DXF Generation
+            ↓
+       Validation
+            ↓
+      Preview Rendering
